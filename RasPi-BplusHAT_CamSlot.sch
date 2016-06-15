@@ -11637,6 +11637,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="R4" library="adafruit" deviceset="R-US_" device="M1206" value="R"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="R6" library="adafruit" deviceset="R-US_" device="M1206" value="R"/>
 </parts>
 <sheets>
 <sheet>
@@ -11753,6 +11754,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="R4" gate="G$1" x="193.04" y="193.04"/>
 <instance part="GND7" gate="1" x="254" y="96.52"/>
 <instance part="P+3" gate="1" x="213.36" y="182.88"/>
+<instance part="R6" gate="G$1" x="193.04" y="154.94"/>
 </instances>
 <busses>
 </busses>
@@ -12088,12 +12090,17 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="IR" gate="G$1" pin="P$2"/>
 </segment>
 <segment>
-<wire x1="201.93" y1="143.51" x2="207.01" y2="143.51" width="0.1524" layer="91"/>
-<wire x1="207.01" y1="143.51" x2="200.66" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="143.51" x2="203.2" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="143.51" x2="203.2" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="143.51" x2="200.66" y2="143.51" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="143.51" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="DHT11" gate="G$1" pin="P$1"/>
 <junction x="207.01" y="143.51"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="154.94" x2="203.2" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="154.94" x2="203.2" y2="143.51" width="0.1524" layer="91"/>
+<junction x="203.2" y="143.51"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="1" pin="+5V"/>
@@ -12284,8 +12291,12 @@ Source: http://www.osram.convergy.de/</description>
 <net name="DHT11" class="0">
 <segment>
 <pinref part="DHT11" gate="G$1" pin="P$2"/>
-<wire x1="207.01" y1="140.97" x2="201.93" y2="140.97" width="0.1524" layer="91"/>
 <label x="201.93" y="140.97" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="154.94" x2="187.96" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="149.86" x2="195.58" y2="140.97" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="140.97" x2="207.01" y2="140.97" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="27.94" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
