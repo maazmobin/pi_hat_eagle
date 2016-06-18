@@ -11638,7 +11638,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="R6" library="adafruit" deviceset="R-US_" device="M1206" value="R"/>
 <part name="R9" library="adafruit" deviceset="R-US_" device="M1206" value="R"/>
-<part name="CN1" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER-VERT(3P-2.54)" device="" value="3p-2.54"/>
+<part name="RGB_DOUT" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER-VERT(3P-2.54)" device="" value="3p-2.54"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
@@ -11758,7 +11758,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="P+3" gate="1" x="213.36" y="182.88"/>
 <instance part="R6" gate="G$1" x="193.04" y="154.94"/>
 <instance part="R9" gate="G$1" x="199.39" y="123.19" rot="R90"/>
-<instance part="CN1" gate="G$1" x="241.3" y="162.56"/>
+<instance part="RGB_DOUT" gate="G$1" x="241.3" y="162.56"/>
 <instance part="P+6" gate="1" x="222.25" y="168.91"/>
 </instances>
 <busses>
@@ -11958,7 +11958,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="281.94" y1="125.73" x2="281.94" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P$2"/>
+<pinref part="RGB_DOUT" gate="G$1" pin="P$2"/>
 <wire x1="233.68" y1="162.56" x2="224.79" y2="162.56" width="0.1524" layer="91"/>
 <label x="224.79" y="162.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12159,7 +12159,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="213.36" y1="180.34" x2="213.36" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CN1" gate="G$1" pin="P$1"/>
+<pinref part="RGB_DOUT" gate="G$1" pin="P$1"/>
 <wire x1="233.68" y1="166.37" x2="222.25" y2="166.37" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 </segment>
@@ -12608,7 +12608,7 @@ Source: http://www.osram.convergy.de/</description>
 <net name="N$7" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="DO"/>
-<pinref part="CN1" gate="G$1" pin="P$3"/>
+<pinref part="RGB_DOUT" gate="G$1" pin="P$3"/>
 <wire x1="220.98" y1="160.02" x2="233.68" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="160.02" x2="233.68" y2="158.75" width="0.1524" layer="91"/>
 </segment>
