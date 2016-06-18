@@ -45,3 +45,7 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+.RasPi-BplusHAT_CamSlot.brd.lck
+.RasPi-BplusHAT_CamSlot.sch.lck
+*.lck

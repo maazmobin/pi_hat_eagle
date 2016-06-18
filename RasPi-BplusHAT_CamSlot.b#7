@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1147,10 +1147,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="63.295" y="42.775" size="0.889" layer="26" ratio="11" rot="MR270"/>
 <attribute name="VALUE" x="67.994" y="42.14" size="0.635" layer="28" ratio="10" rot="MR270"/>
 </element>
-<element name="RSTCON" library="Seeed-Connector -2016" package="H2-2.54" value="2p-2.54" x="31.265" y="64.855" smashed="yes" rot="R180">
-<attribute name="MPN" value="P125-1102A0BS116A1" x="31.265" y="64.855" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.17" y="66.76" size="0.889" layer="25" ratio="11" rot="R270"/>
-<attribute name="VALUE" x="28.725" y="67.395" size="0.889" layer="27" ratio="11" rot="R270"/>
+<element name="RSTCON" library="Seeed-Connector -2016" package="H2-2.54" value="2p-2.54" x="31.265" y="65.355" smashed="yes" rot="R180">
+<attribute name="MPN" value="P125-1102A0BS116A1" x="31.265" y="65.355" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="33.17" y="67.26" size="0.889" layer="25" ratio="11" rot="R270"/>
+<attribute name="VALUE" x="28.725" y="67.895" size="0.889" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="LED1" library="adafruit" package="WS2812B-NARROW" value="WS2812B_5050N" x="57.45" y="58.705" smashed="yes">
 <attribute name="NAME" x="60.9425" y="60.2925" size="0.8128" layer="25" ratio="10" rot="R270"/>
@@ -1703,7 +1703,7 @@ design rules under a new name.</description>
 <contactref element="RSTCON" pad="1"/>
 <contactref element="S2" pad="3"/>
 <wire x1="41.0012" y1="57.6956" x2="40.64" y2="57.6956" width="0.3048" layer="16"/>
-<wire x1="31.265" y1="63.585" x2="31.265" y2="61.445" width="0.3048" layer="16"/>
+<wire x1="31.265" y1="64.085" x2="31.265" y2="61.445" width="0.3048" layer="16"/>
 <wire x1="31.265" y1="61.445" x2="31.75" y2="60.96" width="0.3048" layer="16"/>
 <wire x1="31.75" y1="60.96" x2="38.735" y2="60.96" width="0.3048" layer="16"/>
 <wire x1="38.735" y1="60.96" x2="40.005" y2="59.69" width="0.3048" layer="16"/>
