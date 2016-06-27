@@ -8306,6 +8306,12 @@ Source: http://www.osram.convergy.de/</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,66.04,104.14,U1,VCC,+3V3,,,"/>
+<approved hash="104,1,58.42,208.28,RGB1,VDD,+5V,,,"/>
+<approved hash="105,0,?,?,5V1,,,,,"/>
+<approved hash="105,0,?,?,5V2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

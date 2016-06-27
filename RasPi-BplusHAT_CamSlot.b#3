@@ -277,7 +277,7 @@ Ejaadtech.com</text>
 <text x="50.419" y="39.37" size="1.27" layer="25" font="vector" ratio="16">v1.0</text>
 <text x="92.583" y="62.992" size="1.4224" layer="25" font="vector" ratio="16" rot="MR0" align="center">EjaadTech
 Ejaadtech.com</text>
-<text x="47.625" y="67.691" size="1.4224" layer="26" font="vector" ratio="16" rot="MR0" align="center">MM</text>
+<text x="69.723" y="67.564" size="1.4224" layer="26" font="vector" ratio="16" rot="MR0" align="center">MM</text>
 </plain>
 <libraries>
 <library name="FLYFISH">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -16,16 +16,16 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -261,7 +261,7 @@
 <text x="62.5475" y="60.96" size="1.016" layer="25" font="vector" ratio="12" rot="R90">DO</text>
 <text x="67.6275" y="61.2775" size="1.016" layer="25" font="vector" ratio="12" rot="R90">0V</text>
 <text x="74.93" y="57.15" size="1.016" layer="25" font="vector" ratio="12">NC</text>
-<text x="55.88" y="21.59" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">EjaadTech
+<text x="107.823" y="24.892" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">EjaadTech
 Ejaadtech.com</text>
 <text x="73.025" y="31.115" size="1.016" layer="25" rot="R180">5V</text>
 <text x="73.025" y="25.0825" size="1.016" layer="25" rot="R180">3V3</text>
@@ -1129,8 +1129,7 @@ design rules under a new name.</description>
 </element>
 <element name="BUZT" library="Seeed-Transistor-2016" package="SOT-23" value="S8050" x="65.2" y="40.87" smashed="yes" rot="MR270">
 <attribute name="MPN" value="S8050" x="65.2" y="180.87" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="63.295" y="42.775" size="1.016" layer="26" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="67.994" y="42.14" size="0.635" layer="28" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="63.27" y="38.911" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="RST" library="Seeed-Connector -2016" package="H2-2.54" value="2p-2.54" x="30.015" y="65.305" smashed="yes" rot="R180">
 <attribute name="MPN" value="P125-1102A0BS116A1" x="30.015" y="65.305" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1209,39 +1208,31 @@ design rules under a new name.</description>
 </element>
 <element name="R5" library="adafruit" package="M1206" value="R" x="66.04" y="52.705" smashed="yes" rot="MR180">
 <attribute name="NAME" x="64.77" y="51.435" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="64.77" y="55.245" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="R7" library="adafruit" package="M1206" value="R" x="46.355" y="52.705" smashed="yes" rot="MR0">
 <attribute name="NAME" x="47.625" y="53.975" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="47.625" y="50.165" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R10" library="adafruit" package="M1206" value="R" x="55.88" y="60.96" smashed="yes" rot="MR0">
 <attribute name="NAME" x="57.15" y="62.23" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="57.15" y="58.42" size="1.27" layer="28" rot="MR0"/>
 </element>
 <element name="R8" library="adafruit" package="M1206" value="R" x="55.245" y="54.61" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.515" y="53.34" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="56.515" y="57.15" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C2" library="adafruit" package="C1206" value="C" x="71.755" y="31.4325" smashed="yes" rot="MR90">
-<attribute name="NAME" x="69.088" y="30.7975" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="69.342" y="30.1625" size="1.27" layer="28" rot="MR90"/>
+<attribute name="NAME" x="70.0405" y="32.385" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="C3" library="adafruit" package="C1206" value="C" x="71.755" y="26.035" smashed="yes" rot="MR90">
-<attribute name="NAME" x="69.088" y="25.0825" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="69.342" y="24.765" size="1.27" layer="28" rot="MR90"/>
+<attribute name="NAME" x="70.2945" y="27.178" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R4" library="adafruit" package="M1206" value="R" x="64.77" y="45.085" smashed="yes" rot="MR180">
-<attribute name="NAME" x="63.5" y="43.815" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="63.5" y="47.625" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="63.754" y="43.688" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R6" library="adafruit" package="M1206" value="R" x="31.75" y="8.89" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.02" y="10.16" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="33.02" y="6.35" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="32.639" y="10.541" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R9" library="adafruit" package="M1206" value="R" x="66.9925" y="10.16" smashed="yes" rot="MR180">
-<attribute name="NAME" x="65.7225" y="8.89" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="65.7225" y="12.7" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="62.1665" y="9.525" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="RGB_DOUT" library="Seeed-Connector -2016" package="H3-2.54" value="3p-2.54" x="64.4525" y="64.77" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.96" y="66.675" size="1.016" layer="25" font="vector" ratio="12"/>

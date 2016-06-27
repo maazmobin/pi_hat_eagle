@@ -273,6 +273,7 @@ Ejaadtech.com</text>
 <text x="60.325" y="4.445" size="1.016" layer="25" font="vector" ratio="12">3V3</text>
 <text x="64.77" y="4.445" size="1.016" layer="25" font="vector" ratio="12">D</text>
 <text x="67.31" y="4.445" size="1.016" layer="25" font="vector" ratio="12">0V</text>
+<text x="43.4975" y="60.0075" size="2.1844" layer="26" font="vector" ratio="12" rot="MR0">pi purza</text>
 </plain>
 <libraries>
 <library name="FLYFISH">

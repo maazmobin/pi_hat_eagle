@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -253,10 +253,10 @@
 <text x="53.6575" y="21.59" size="1.016" layer="25" font="vector" ratio="12" rot="R90">B2</text>
 <text x="56.1975" y="21.59" size="1.016" layer="25" font="vector" ratio="12" rot="R90">B3</text>
 <text x="58.7375" y="21.59" size="1.016" layer="25" font="vector" ratio="12" rot="R90">B4</text>
-<text x="29.21" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">5V</text>
-<text x="32.512" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">D</text>
-<text x="34.671" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">NC</text>
-<text x="37.465" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">OV</text>
+<text x="29.21" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">5V</text>
+<text x="32.512" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">D</text>
+<text x="34.671" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">NC</text>
+<text x="37.465" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">OV</text>
 <text x="65.0875" y="61.2775" size="1.016" layer="25" font="vector" ratio="12" rot="R90">5V</text>
 <text x="62.5475" y="60.96" size="1.016" layer="25" font="vector" ratio="12" rot="R90">DO</text>
 <text x="67.6275" y="61.2775" size="1.016" layer="25" font="vector" ratio="12" rot="R90">0V</text>
@@ -273,7 +273,8 @@ Ejaadtech.com</text>
 <text x="60.325" y="4.445" size="1.016" layer="25" font="vector" ratio="12">3V3</text>
 <text x="64.77" y="4.445" size="1.016" layer="25" font="vector" ratio="12">D</text>
 <text x="67.31" y="4.445" size="1.016" layer="25" font="vector" ratio="12">0V</text>
-<text x="43.4975" y="60.0075" size="2.1844" layer="26" font="vector" ratio="12" rot="MR0">pi purza</text>
+<text x="37.211" y="41.402" size="2.54" layer="25" font="vector" ratio="16">pi purza</text>
+<text x="50.419" y="39.37" size="1.27" layer="25" font="vector" ratio="16">v1.0</text>
 </plain>
 <libraries>
 <library name="FLYFISH">
@@ -1092,16 +1093,16 @@ design rules under a new name.</description>
 </element>
 <element name="DHT11" library="Seeed-Connector -2016" package="H4-2.54" value="4p-2.54" x="34.317" y="6.426" smashed="yes" rot="R90">
 <attribute name="MPN" value="F185-1104A1BSYA1" x="18.317" y="-53.574" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.3495" y="8.966" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="39.7145" y="8.966" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="IR" library="Seeed-Connector -2016" package="H4-2.54" value="4p-2.54" x="73.775" y="56.415" smashed="yes" rot="R180">
 <attribute name="MPN" value="F185-1104A1BSYA1" x="147.775" y="40.415" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="69.965" y="56.0975" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="NAME" x="70.9175" y="53.24" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="71.235" y="58.32" size="0.889" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="U2" library="Seeed-OPL-ic" package="SOIC8-1.27-5X4MM" value="DS13337S+-SOIC8" x="33.14" y="13.1575" smashed="yes" rot="R90">
 <attribute name="MPN" value="DS1337S+" x="25.14" y="-80.8425" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.33" y="11.57" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="35.9975" y="16.9675" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="35.045" y="13.7925" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="BATTERY" library="Seeed-OPL-Connector" package="BAT2P-20.32-CR2032" value="cr2032" x="50.915" y="32.765" smashed="yes" rot="MR0">
@@ -1263,7 +1264,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.7025" y="20.32" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R12" library="adafruit" package="M1206" value="R" x="30.48" y="8.89" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.2425" y="9.525" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="27.94" y="7.9375" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="31.75" y="11.43" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="adafruit" package="C1206" value="C" x="55.245" y="30.7975" smashed="yes" rot="R270">
@@ -1647,11 +1648,9 @@ design rules under a new name.</description>
 <wire x1="41.275" y1="10.16" x2="39.6875" y2="8.5725" width="0.3048" layer="1"/>
 <wire x1="39.6875" y1="8.5725" x2="39.6875" y2="4.7625" width="0.3048" layer="1"/>
 <wire x1="39.6875" y1="4.7625" x2="39.37" y2="4.445" width="0.3048" layer="1"/>
-<wire x1="39.37" y1="4.445" x2="29.5275" y2="4.445" width="0.3048" layer="1"/>
-<wire x1="29.5275" y1="4.445" x2="28.575" y2="5.3975" width="0.3048" layer="1"/>
-<wire x1="28.575" y1="5.3975" x2="28.575" y2="6.35" width="0.3048" layer="1"/>
-<via x="28.575" y="6.35" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="28.575" y1="6.35" x2="28.575" y2="10.795" width="0.3048" layer="16"/>
+<wire x1="39.37" y1="4.445" x2="28.575" y2="4.445" width="0.3048" layer="1"/>
+<via x="28.575" y="4.445" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="28.575" y1="4.445" x2="28.575" y2="10.795" width="0.3048" layer="16"/>
 <wire x1="28.575" y1="10.795" x2="24.765" y2="10.795" width="0.3048" layer="16"/>
 <wire x1="24.765" y1="10.795" x2="23.97125" y2="11.58875" width="0.3048" layer="16"/>
 <wire x1="23.97125" y1="11.58875" x2="23.97125" y2="11.90875" width="0.3048" layer="16"/>

@@ -261,7 +261,7 @@
 <text x="62.5475" y="60.96" size="1.016" layer="25" font="vector" ratio="12" rot="R90">DO</text>
 <text x="67.6275" y="61.2775" size="1.016" layer="25" font="vector" ratio="12" rot="R90">0V</text>
 <text x="74.93" y="57.15" size="1.016" layer="25" font="vector" ratio="12">NC</text>
-<text x="107.823" y="24.892" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">EjaadTech
+<text x="56.007" y="56.515" size="1.4224" layer="26" font="vector" ratio="16" rot="MR0" align="center">EjaadTech
 Ejaadtech.com</text>
 <text x="73.025" y="31.115" size="1.016" layer="25" rot="R180">5V</text>
 <text x="73.025" y="25.0825" size="1.016" layer="25" rot="R180">3V3</text>
@@ -275,6 +275,8 @@ Ejaadtech.com</text>
 <text x="67.31" y="4.445" size="1.016" layer="25" font="vector" ratio="12">0V</text>
 <text x="37.211" y="41.402" size="2.54" layer="25" font="vector" ratio="16">pi purza</text>
 <text x="50.419" y="39.37" size="1.27" layer="25" font="vector" ratio="16">v1.0</text>
+<text x="92.583" y="62.992" size="1.4224" layer="26" font="vector" ratio="16" rot="MR0" align="center">EjaadTech
+Ejaadtech.com</text>
 </plain>
 <libraries>
 <library name="FLYFISH">
@@ -1106,8 +1108,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="35.045" y="13.7925" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="BATTERY" library="Seeed-OPL-Connector" package="BAT2P-20.32-CR2032" value="cr2032" x="50.915" y="32.765" smashed="yes" rot="MR0">
-<attribute name="NAME" x="53.455" y="40.7025" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="50.28" y="44.195" size="0.889" layer="28" ratio="11" rot="MR0"/>
+<attribute name="NAME" x="54.217" y="23.0495" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="45.2" y="24.637" size="0.889" layer="28" ratio="11" rot="MR0"/>
 </element>
 <element name="Y2" library="Seeed-OPL-crystal-osctllator" package="X2-SMD-L2.0X1.2X0.55MM" value="3.2768KHZ" x="37.87" y="10.57" smashed="yes" rot="R90">
 <attribute name="MPN" value="FC-12M" x="13.87" y="-85.43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1127,7 +1129,7 @@ design rules under a new name.</description>
 <element name="P_3.3V" library="Seeed-Connector -2016" package="H2-2.54" value="2p-2.54" x="75.04" y="25.795" smashed="yes">
 <attribute name="MPN" value="P125-1102A0BS116A1" x="-73.96" y="32.795" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BUZT" library="Seeed-Transistor-2016" package="SOT-23" value="S8050" x="65.2" y="40.87" smashed="yes" rot="MR270">
+<element name="BUZZ" library="Seeed-Transistor-2016" package="SOT-23" value="S8050" x="65.2" y="40.87" smashed="yes" rot="MR270">
 <attribute name="MPN" value="S8050" x="65.2" y="180.87" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="63.27" y="38.911" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
@@ -1207,13 +1209,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.61" y="20.6375" size="0.635" layer="33" ratio="10" rot="R180"/>
 </element>
 <element name="R5" library="adafruit" package="M1206" value="R" x="66.04" y="52.705" smashed="yes" rot="MR180">
-<attribute name="NAME" x="64.77" y="51.435" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
+<attribute name="NAME" x="63.246" y="55.118" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R7" library="adafruit" package="M1206" value="R" x="46.355" y="52.705" smashed="yes" rot="MR0">
-<attribute name="NAME" x="47.625" y="53.975" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="50.673" y="52.324" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R10" library="adafruit" package="M1206" value="R" x="55.88" y="60.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="57.15" y="62.23" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="58.42" y="62.484" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R8" library="adafruit" package="M1206" value="R" x="55.245" y="54.61" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.515" y="53.34" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
@@ -1232,7 +1234,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="32.639" y="10.541" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R9" library="adafruit" package="M1206" value="R" x="66.9925" y="10.16" smashed="yes" rot="MR180">
-<attribute name="NAME" x="62.1665" y="9.525" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
+<attribute name="NAME" x="70.1675" y="10.033" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="RGB_DOUT" library="Seeed-Connector -2016" package="H3-2.54" value="3p-2.54" x="64.4525" y="64.77" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.96" y="66.675" size="1.016" layer="25" font="vector" ratio="12"/>
@@ -1590,7 +1592,7 @@ design rules under a new name.</description>
 <contactref element="K1" pad="4"/>
 <contactref element="P_5V" pad="2"/>
 <contactref element="C2" pad="1"/>
-<contactref element="BUZT" pad="3"/>
+<contactref element="BUZZ" pad="3"/>
 <wire x1="60.96" y1="22.225" x2="60.96" y2="17.145" width="0.6096" layer="1"/>
 <wire x1="60.96" y1="17.145" x2="61.595" y2="16.51" width="0.6096" layer="1"/>
 <wire x1="61.595" y1="16.51" x2="61.595" y2="15.39875" width="0.6096" layer="1"/>
@@ -1753,7 +1755,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$4">
 <contactref element="BUZZER" pad="+"/>
-<contactref element="BUZT" pad="2"/>
+<contactref element="BUZZ" pad="2"/>
 <wire x1="66.216" y1="39.981" x2="69.826" y2="39.981" width="0.3048" layer="16"/>
 <wire x1="69.826" y1="39.981" x2="69.85" y2="40.005" width="0.3048" layer="16"/>
 <wire x1="69.85" y1="40.005" x2="69.85" y2="43.94" width="0.3048" layer="16"/>
@@ -1780,7 +1782,7 @@ design rules under a new name.</description>
 <wire x1="53.845" y1="57.04" x2="55.1" y2="57.055" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="BUZT" pad="1"/>
+<contactref element="BUZZ" pad="1"/>
 <contactref element="R4" pad="2"/>
 <wire x1="66.216" y1="41.759" x2="66.216" y2="45.674" width="0.3048" layer="16"/>
 <wire x1="66.216" y1="45.674" x2="66.17" y2="45.085" width="0.3048" layer="16"/>
