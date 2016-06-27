@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -16,16 +16,16 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -253,15 +253,15 @@
 <text x="53.6575" y="21.59" size="1.016" layer="25" font="vector" ratio="12" rot="R90">B2</text>
 <text x="56.1975" y="21.59" size="1.016" layer="25" font="vector" ratio="12" rot="R90">B3</text>
 <text x="58.7375" y="21.59" size="1.016" layer="25" font="vector" ratio="12" rot="R90">B4</text>
-<text x="29.21" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">5V</text>
-<text x="32.512" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">D</text>
-<text x="34.671" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">NC</text>
-<text x="37.465" y="3.8735" size="1.016" layer="25" font="vector" ratio="12">OV</text>
+<text x="29.21" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">5V</text>
+<text x="32.512" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">D</text>
+<text x="34.671" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">NC</text>
+<text x="37.465" y="4.0005" size="1.016" layer="25" font="vector" ratio="12">OV</text>
 <text x="65.0875" y="61.2775" size="1.016" layer="25" font="vector" ratio="12" rot="R90">5V</text>
 <text x="62.5475" y="60.96" size="1.016" layer="25" font="vector" ratio="12" rot="R90">DO</text>
 <text x="67.6275" y="61.2775" size="1.016" layer="25" font="vector" ratio="12" rot="R90">0V</text>
 <text x="74.93" y="57.15" size="1.016" layer="25" font="vector" ratio="12">NC</text>
-<text x="55.88" y="21.59" size="1.016" layer="26" font="vector" ratio="12" rot="MR0">EjaadTech
+<text x="56.007" y="56.515" size="1.4224" layer="26" font="vector" ratio="16" rot="MR0" align="center">EjaadTech
 Ejaadtech.com</text>
 <text x="73.025" y="31.115" size="1.016" layer="25" rot="R180">5V</text>
 <text x="73.025" y="25.0825" size="1.016" layer="25" rot="R180">3V3</text>
@@ -273,6 +273,11 @@ Ejaadtech.com</text>
 <text x="60.325" y="4.445" size="1.016" layer="25" font="vector" ratio="12">3V3</text>
 <text x="64.77" y="4.445" size="1.016" layer="25" font="vector" ratio="12">D</text>
 <text x="67.31" y="4.445" size="1.016" layer="25" font="vector" ratio="12">0V</text>
+<text x="37.211" y="41.402" size="2.54" layer="25" font="vector" ratio="16">pi purza</text>
+<text x="50.419" y="39.37" size="1.27" layer="25" font="vector" ratio="16">v1.0</text>
+<text x="92.583" y="62.992" size="1.4224" layer="25" font="vector" ratio="16" rot="MR0" align="center">EjaadTech
+Ejaadtech.com</text>
+<text x="69.723" y="67.564" size="1.4224" layer="26" font="vector" ratio="16" rot="MR0" align="center">MM</text>
 </plain>
 <libraries>
 <library name="FLYFISH">
@@ -1091,21 +1096,21 @@ design rules under a new name.</description>
 </element>
 <element name="DHT11" library="Seeed-Connector -2016" package="H4-2.54" value="4p-2.54" x="34.317" y="6.426" smashed="yes" rot="R90">
 <attribute name="MPN" value="F185-1104A1BSYA1" x="18.317" y="-53.574" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.3495" y="8.966" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="39.7145" y="8.966" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="IR" library="Seeed-Connector -2016" package="H4-2.54" value="4p-2.54" x="73.775" y="56.415" smashed="yes" rot="R180">
 <attribute name="MPN" value="F185-1104A1BSYA1" x="147.775" y="40.415" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="69.965" y="56.0975" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="NAME" x="70.9175" y="53.24" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="71.235" y="58.32" size="0.889" layer="27" ratio="11" rot="R270"/>
 </element>
 <element name="U2" library="Seeed-OPL-ic" package="SOIC8-1.27-5X4MM" value="DS13337S+-SOIC8" x="33.14" y="13.1575" smashed="yes" rot="R90">
 <attribute name="MPN" value="DS1337S+" x="25.14" y="-80.8425" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.33" y="11.57" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="35.9975" y="16.9675" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="35.045" y="13.7925" size="0.635" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="BATTERY" library="Seeed-OPL-Connector" package="BAT2P-20.32-CR2032" value="cr2032" x="50.915" y="32.765" smashed="yes" rot="MR0">
-<attribute name="NAME" x="53.455" y="40.7025" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="50.28" y="44.195" size="0.889" layer="28" ratio="11" rot="MR0"/>
+<attribute name="NAME" x="54.217" y="23.0495" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="45.2" y="24.637" size="0.889" layer="28" ratio="11" rot="MR0"/>
 </element>
 <element name="Y2" library="Seeed-OPL-crystal-osctllator" package="X2-SMD-L2.0X1.2X0.55MM" value="3.2768KHZ" x="37.87" y="10.57" smashed="yes" rot="R90">
 <attribute name="MPN" value="FC-12M" x="13.87" y="-85.43" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1125,10 +1130,9 @@ design rules under a new name.</description>
 <element name="P_3.3V" library="Seeed-Connector -2016" package="H2-2.54" value="2p-2.54" x="75.04" y="25.795" smashed="yes">
 <attribute name="MPN" value="P125-1102A0BS116A1" x="-73.96" y="32.795" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BUZT" library="Seeed-Transistor-2016" package="SOT-23" value="S8050" x="65.2" y="40.87" smashed="yes" rot="MR270">
+<element name="BUZZ" library="Seeed-Transistor-2016" package="SOT-23" value="S8050" x="65.2" y="40.87" smashed="yes" rot="MR270">
 <attribute name="MPN" value="S8050" x="65.2" y="180.87" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="63.295" y="42.775" size="1.016" layer="26" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="67.994" y="42.14" size="0.635" layer="28" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="63.27" y="38.911" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="RST" library="Seeed-Connector -2016" package="H2-2.54" value="2p-2.54" x="30.015" y="65.305" smashed="yes" rot="R180">
 <attribute name="MPN" value="P125-1102A0BS116A1" x="30.015" y="65.305" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1206,40 +1210,32 @@ design rules under a new name.</description>
 <attribute name="NAME" x="54.61" y="20.6375" size="0.635" layer="33" ratio="10" rot="R180"/>
 </element>
 <element name="R5" library="adafruit" package="M1206" value="R" x="66.04" y="52.705" smashed="yes" rot="MR180">
-<attribute name="NAME" x="64.77" y="51.435" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="64.77" y="55.245" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="63.246" y="55.118" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R7" library="adafruit" package="M1206" value="R" x="46.355" y="52.705" smashed="yes" rot="MR0">
-<attribute name="NAME" x="47.625" y="53.975" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="47.625" y="50.165" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="50.673" y="52.324" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R10" library="adafruit" package="M1206" value="R" x="55.88" y="60.96" smashed="yes" rot="MR0">
-<attribute name="NAME" x="57.15" y="62.23" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="57.15" y="58.42" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="58.42" y="62.484" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R8" library="adafruit" package="M1206" value="R" x="55.245" y="54.61" smashed="yes" rot="R180">
 <attribute name="NAME" x="56.515" y="53.34" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="56.515" y="57.15" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C2" library="adafruit" package="C1206" value="C" x="71.755" y="31.4325" smashed="yes" rot="MR90">
-<attribute name="NAME" x="69.088" y="30.7975" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="69.342" y="30.1625" size="1.27" layer="28" rot="MR90"/>
+<attribute name="NAME" x="70.0405" y="32.385" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="C3" library="adafruit" package="C1206" value="C" x="71.755" y="26.035" smashed="yes" rot="MR90">
-<attribute name="NAME" x="69.088" y="25.0825" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="69.342" y="24.765" size="1.27" layer="28" rot="MR90"/>
+<attribute name="NAME" x="70.2945" y="27.178" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R4" library="adafruit" package="M1206" value="R" x="64.77" y="45.085" smashed="yes" rot="MR180">
-<attribute name="NAME" x="63.5" y="43.815" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="63.5" y="47.625" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="63.754" y="43.688" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R6" library="adafruit" package="M1206" value="R" x="31.75" y="8.89" smashed="yes" rot="MR0">
-<attribute name="NAME" x="33.02" y="10.16" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="33.02" y="6.35" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="32.639" y="10.541" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R9" library="adafruit" package="M1206" value="R" x="66.9925" y="10.16" smashed="yes" rot="MR180">
-<attribute name="NAME" x="65.7225" y="8.89" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="65.7225" y="12.7" size="1.27" layer="28" rot="MR180"/>
+<attribute name="NAME" x="70.1675" y="10.033" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="RGB_DOUT" library="Seeed-Connector -2016" package="H3-2.54" value="3p-2.54" x="64.4525" y="64.77" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.96" y="66.675" size="1.016" layer="25" font="vector" ratio="12"/>
@@ -1262,7 +1258,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="32.7025" y="20.32" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R12" library="adafruit" package="M1206" value="R" x="30.48" y="8.89" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.2425" y="9.525" size="1.016" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="27.94" y="7.9375" size="1.016" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="VALUE" x="31.75" y="11.43" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="adafruit" package="C1206" value="C" x="55.245" y="30.7975" smashed="yes" rot="R270">
@@ -1597,7 +1593,7 @@ design rules under a new name.</description>
 <contactref element="K1" pad="4"/>
 <contactref element="P_5V" pad="2"/>
 <contactref element="C2" pad="1"/>
-<contactref element="BUZT" pad="3"/>
+<contactref element="BUZZ" pad="3"/>
 <wire x1="60.96" y1="22.225" x2="60.96" y2="17.145" width="0.6096" layer="1"/>
 <wire x1="60.96" y1="17.145" x2="61.595" y2="16.51" width="0.6096" layer="1"/>
 <wire x1="61.595" y1="16.51" x2="61.595" y2="15.39875" width="0.6096" layer="1"/>
@@ -1646,11 +1642,9 @@ design rules under a new name.</description>
 <wire x1="41.275" y1="10.16" x2="39.6875" y2="8.5725" width="0.3048" layer="1"/>
 <wire x1="39.6875" y1="8.5725" x2="39.6875" y2="4.7625" width="0.3048" layer="1"/>
 <wire x1="39.6875" y1="4.7625" x2="39.37" y2="4.445" width="0.3048" layer="1"/>
-<wire x1="39.37" y1="4.445" x2="29.5275" y2="4.445" width="0.3048" layer="1"/>
-<wire x1="29.5275" y1="4.445" x2="28.575" y2="5.3975" width="0.3048" layer="1"/>
-<wire x1="28.575" y1="5.3975" x2="28.575" y2="6.35" width="0.3048" layer="1"/>
-<via x="28.575" y="6.35" extent="1-16" drill="0.6" shape="square"/>
-<wire x1="28.575" y1="6.35" x2="28.575" y2="10.795" width="0.3048" layer="16"/>
+<wire x1="39.37" y1="4.445" x2="28.575" y2="4.445" width="0.3048" layer="1"/>
+<via x="28.575" y="4.445" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="28.575" y1="4.445" x2="28.575" y2="10.795" width="0.3048" layer="16"/>
 <wire x1="28.575" y1="10.795" x2="24.765" y2="10.795" width="0.3048" layer="16"/>
 <wire x1="24.765" y1="10.795" x2="23.97125" y2="11.58875" width="0.3048" layer="16"/>
 <wire x1="23.97125" y1="11.58875" x2="23.97125" y2="11.90875" width="0.3048" layer="16"/>
@@ -1762,7 +1756,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$4">
 <contactref element="BUZZER" pad="+"/>
-<contactref element="BUZT" pad="2"/>
+<contactref element="BUZZ" pad="2"/>
 <wire x1="66.216" y1="39.981" x2="69.826" y2="39.981" width="0.3048" layer="16"/>
 <wire x1="69.826" y1="39.981" x2="69.85" y2="40.005" width="0.3048" layer="16"/>
 <wire x1="69.85" y1="40.005" x2="69.85" y2="43.94" width="0.3048" layer="16"/>
@@ -1789,7 +1783,7 @@ design rules under a new name.</description>
 <wire x1="53.845" y1="57.04" x2="55.1" y2="57.055" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="BUZT" pad="1"/>
+<contactref element="BUZZ" pad="1"/>
 <contactref element="R4" pad="2"/>
 <wire x1="66.216" y1="41.759" x2="66.216" y2="45.674" width="0.3048" layer="16"/>
 <wire x1="66.216" y1="45.674" x2="66.17" y2="45.085" width="0.3048" layer="16"/>
@@ -1962,15 +1956,13 @@ design rules under a new name.</description>
 <contactref element="DS18B20" pad="2"/>
 <via x="29.845" y="20.955" extent="1-16" drill="0.6" shape="square"/>
 <wire x1="29.845" y1="13.335" x2="29.845" y2="20.955" width="0.3048" layer="16"/>
-<wire x1="40.005" y1="10.795" x2="40.64" y2="10.16" width="0.3048" layer="16"/>
-<wire x1="40.64" y1="10.16" x2="60.96" y2="10.16" width="0.3048" layer="16"/>
-<wire x1="60.96" y1="10.16" x2="61.595" y2="9.525" width="0.4064" layer="16"/>
+<wire x1="39.37" y1="10.795" x2="39.878" y2="10.16" width="0.3048" layer="16"/>
+<wire x1="39.878" y1="10.16" x2="60.96" y2="10.16" width="0.3048" layer="16"/>
+<wire x1="60.96" y1="10.16" x2="62.23" y2="10.16" width="0.4064" layer="16"/>
 <wire x1="65.305" y1="6.995" x2="65.405" y2="6.7775" width="0.4064" layer="16"/>
 <wire x1="65.405" y1="6.7775" x2="65.405" y2="6.985" width="0.4064" layer="16"/>
 <wire x1="65.405" y1="6.985" x2="65.0875" y2="7.3025" width="0.4064" layer="16"/>
-<wire x1="65.0875" y1="7.3025" x2="62.865" y2="9.525" width="0.4064" layer="16"/>
-<wire x1="62.865" y1="9.525" x2="61.595" y2="9.525" width="0.4064" layer="16"/>
-<wire x1="40.005" y1="10.795" x2="39.37" y2="10.795" width="0.4064" layer="16"/>
+<wire x1="65.0875" y1="7.3025" x2="62.23" y2="10.16" width="0.4064" layer="16"/>
 <wire x1="39.37" y1="10.795" x2="36.83" y2="13.335" width="0.3048" layer="16"/>
 <wire x1="36.83" y1="13.335" x2="29.845" y2="13.335" width="0.3048" layer="16"/>
 <contactref element="R9" pad="1"/>

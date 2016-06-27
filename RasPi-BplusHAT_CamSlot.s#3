@@ -7297,12 +7297,12 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="RSTCON" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" value="2p-2.54"/>
+<part name="RST" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" value="2p-2.54"/>
 <part name="RGB1" library="adafruit" deviceset="WS2812B" device="_5050N"/>
 <part name="RESET" library="switch-omron" deviceset="10-XX" device="" value="push"/>
 <part name="LED" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER(6P-2.54)" device="" value="6p-2.54"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="5MM" value="L"/>
-<part name="LED2" library="adafruit" deviceset="LED" device="5MM" value="L"/>
+<part name="L1" library="adafruit" deviceset="LED" device="5MM" value="L"/>
+<part name="L2" library="adafruit" deviceset="LED" device="5MM" value="L"/>
 <part name="LCDSPI_NOKIA" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(8P-2.54)" device="" value="8p-2.54"/>
 <part name="B1" library="switch-omron" deviceset="10-XX" device="" value="push"/>
 <part name="B2" library="switch-omron" deviceset="10-XX" device="" value="push"/>
@@ -7393,12 +7393,12 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND4" gate="1" x="134.62" y="220.98"/>
 <instance part="GND5" gate="1" x="86.36" y="208.28"/>
 <instance part="GND6" gate="1" x="186.69" y="200.66"/>
-<instance part="RSTCON" gate="G$1" x="137.16" y="134.62" rot="R270"/>
+<instance part="RST" gate="G$1" x="137.16" y="134.62" rot="R270"/>
 <instance part="RGB1" gate="G$1" x="53.34" y="193.04"/>
 <instance part="RESET" gate="1" x="135.89" y="156.21" rot="R90"/>
 <instance part="LED" gate="G$1" x="34.29" y="148.59"/>
-<instance part="LED1" gate="G$1" x="96.52" y="228.6" rot="R90"/>
-<instance part="LED2" gate="G$1" x="96.52" y="241.3" rot="R90"/>
+<instance part="L1" gate="G$1" x="96.52" y="228.6" rot="R90"/>
+<instance part="L2" gate="G$1" x="96.52" y="241.3" rot="R90"/>
 <instance part="LCDSPI_NOKIA" gate="G$1" x="110.49" y="144.78"/>
 <instance part="B1" gate="1" x="162.56" y="241.3" rot="R90"/>
 <instance part="B2" gate="1" x="162.56" y="228.6" rot="R90"/>
@@ -7521,8 +7521,8 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="134.62" y1="228.6" x2="134.62" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="223.52" x2="134.62" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="241.3" x2="101.6" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="L1" gate="G$1" pin="C"/>
+<pinref part="L2" gate="G$1" pin="C"/>
 <junction x="134.62" y="223.52"/>
 </segment>
 <segment>
@@ -7628,7 +7628,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="165.1" y1="176.53" x2="168.91" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RSTCON" gate="G$1" pin="2"/>
+<pinref part="RST" gate="G$1" pin="2"/>
 <wire x1="127" y1="147.32" x2="134.62" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="147.32" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="RESET" gate="1" pin="S"/>
@@ -7915,7 +7915,7 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="RSTCON" gate="G$1" pin="1"/>
+<pinref part="RST" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="142.24" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="147.32" x2="144.78" y2="156.21" width="0.1524" layer="91"/>
@@ -7933,7 +7933,7 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="L2" gate="G$1" pin="A"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="241.3" x2="90.17" y2="241.3" width="0.1524" layer="91"/>
 </segment>
@@ -7941,7 +7941,7 @@ Source: http://www.osram.convergy.de/</description>
 <net name="N$6" class="0">
 <segment>
 <wire x1="93.98" y1="228.6" x2="87.63" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="L1" gate="G$1" pin="A"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
