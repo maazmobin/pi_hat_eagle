@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11588,7 +11588,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="IR" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(4P-2.54)" device="" value="4p-2.54"/>
 <part name="U2" library="Seeed-OPL-ic" deviceset="CLOCK-DS1337S+(SOIC8)" device="" value="DS13337S+-SOIC8"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="BAT1" library="Seeed-OPL-Connector" deviceset="DIP-BATTERY-CELL-HOLDER(2032)" device="" value="cr2032"/>
+<part name="BATTERY" library="Seeed-OPL-Connector" deviceset="DIP-BATTERY-CELL-HOLDER(2032)" device="" value="cr2032"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="Y2" library="Seeed-OPL-crystal-osctllator" deviceset="SMD-CRYSTAL-32.768KHZ-12.5PF-20PPM-90K(2P-L2.0X1.2MM)" device="" value="3.2768KHZ"/>
 <part name="R16" library="Seeed-OPL-Resistor" deviceset="SMD-RES-10K-5%-1/10W(0603)" device="" value="10K 1/10W"/>
@@ -11704,7 +11704,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="IR" gate="G$1" x="186.69" y="139.7"/>
 <instance part="U2" gate="G$1" x="134.62" y="214.63"/>
 <instance part="GND12" gate="1" x="134.62" y="195.58"/>
-<instance part="BAT1" gate="G$1" x="157.48" y="214.63" rot="R270"/>
+<instance part="BATTERY" gate="G$1" x="157.48" y="214.63" rot="R270"/>
 <instance part="GND13" gate="1" x="157.48" y="195.58"/>
 <instance part="Y2" gate="G$1" x="130.81" y="236.22"/>
 <instance part="R16" gate="G$1" x="116.84" y="222.25" rot="R270"/>
@@ -11833,7 +11833,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="BAT1" gate="G$1" pin="V-"/>
+<pinref part="BATTERY" gate="G$1" pin="V-"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="157.48" y1="205.74" x2="157.48" y2="198.12" width="0.1524" layer="91"/>
 </segment>
@@ -12171,7 +12171,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="140.97" y1="227.33" x2="140.97" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="233.68" x2="157.48" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="233.68" x2="157.48" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="BAT1" gate="G$1" pin="V+"/>
+<pinref part="BATTERY" gate="G$1" pin="V+"/>
 </segment>
 </net>
 <net name="N$12" class="0">

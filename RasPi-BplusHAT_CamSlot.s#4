@@ -7309,9 +7309,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="B3" library="switch-omron" deviceset="10-XX" device="" value="push"/>
 <part name="B4" library="switch-omron" deviceset="10-XX" device="" value="push"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="SPI" library="Seeed-Connector -2016" deviceset="DIP-BLACK-FEMALE-HEADER-VERT(6P-2.54)" device="" value="6p-2.54"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
@@ -7342,6 +7339,9 @@ Source: http://www.osram.convergy.de/</description>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="C4" library="adafruit" deviceset="C-US" device="C1206" value="C"/>
+<part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7405,13 +7405,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="B3" gate="1" x="162.56" y="215.9" rot="R90"/>
 <instance part="B4" gate="1" x="163.83" y="200.66" rot="R90"/>
 <instance part="+3V2" gate="G$1" x="137.16" y="107.95"/>
-<instance part="P+4" gate="1" x="8.89" y="177.8" smashed="yes">
-<attribute name="VALUE" x="6.35" y="172.72" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+5" gate="1" x="45.72" y="182.88"/>
-<instance part="P+7" gate="1" x="60.96" y="157.48" smashed="yes">
-<attribute name="VALUE" x="58.42" y="152.4" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="+3V3" gate="G$1" x="19.05" y="158.75"/>
 <instance part="SPI" gate="G$1" x="124.46" y="205.74"/>
 <instance part="+3V7" gate="G$1" x="104.14" y="214.63"/>
@@ -7442,6 +7435,9 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="+3V11" gate="G$1" x="74.93" y="182.88"/>
 <instance part="+3V12" gate="G$1" x="101.6" y="184.15"/>
 <instance part="C4" gate="G$1" x="25.4" y="99.06"/>
+<instance part="+3V13" gate="G$1" x="8.89" y="180.34"/>
+<instance part="+3V14" gate="G$1" x="45.72" y="184.15"/>
+<instance part="+3V15" gate="G$1" x="60.96" y="161.29"/>
 </instances>
 <busses>
 </busses>
@@ -7741,6 +7737,34 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="109.22" y1="173.99" x2="111.76" y2="171.45" width="0.1524" layer="91"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 </segment>
+<segment>
+<wire x1="52.07" y1="173.99" x2="48.26" y2="173.99" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="173.99" x2="45.72" y2="173.99" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="173.99" x2="45.72" y2="181.61" width="0.1524" layer="91"/>
+<pinref part="DHT11" gate="G$1" pin="P$1"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="185.42" x2="48.26" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="185.42" x2="48.26" y2="173.99" width="0.1524" layer="91"/>
+<junction x="48.26" y="173.99"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<wire x1="24.13" y1="171.45" x2="8.89" y2="171.45" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="171.45" x2="8.89" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="IR" gate="G$1" pin="P$2"/>
+<pinref part="+3V13" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<wire x1="66.04" y1="153.67" x2="60.96" y2="153.67" width="0.1524" layer="91"/>
+<pinref part="DS18B20" gate="G$1" pin="P$1"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="44.45" y1="158.75" x2="55.88" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="158.75" x2="55.88" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="153.67" x2="60.96" y2="153.67" width="0.1524" layer="91"/>
+<junction x="60.96" y="153.67"/>
+<pinref part="+3V15" gate="G$1" pin="+3V3"/>
+<wire x1="60.96" y1="158.75" x2="60.96" y2="153.67" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -7793,24 +7817,6 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="66.04" y="73.66"/>
 </segment>
 <segment>
-<pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="24.13" y1="171.45" x2="8.89" y2="171.45" width="0.1524" layer="91"/>
-<wire x1="8.89" y1="171.45" x2="8.89" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IR" gate="G$1" pin="P$2"/>
-</segment>
-<segment>
-<wire x1="52.07" y1="173.99" x2="48.26" y2="173.99" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="173.99" x2="45.72" y2="173.99" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="173.99" x2="45.72" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
-<pinref part="DHT11" gate="G$1" pin="P$1"/>
-<junction x="52.07" y="173.99"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="185.42" x2="48.26" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="185.42" x2="48.26" y2="173.99" width="0.1524" layer="91"/>
-<junction x="48.26" y="173.99"/>
-</segment>
-<segment>
 <wire x1="127" y1="167.64" x2="130.81" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="P_5V" gate="G$1" pin="2"/>
 <pinref part="C2" gate="G$1" pin="1"/>
@@ -7824,17 +7830,6 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="50.8" y1="228.6" x2="50.8" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="BUZT" gate="G$1" pin="C"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
-</segment>
-<segment>
-<wire x1="66.04" y1="153.67" x2="60.96" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="153.67" x2="60.96" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="DS18B20" gate="G$1" pin="P$1"/>
-<pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="44.45" y1="158.75" x2="55.88" y2="158.75" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="158.75" x2="55.88" y2="153.67" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="153.67" x2="60.96" y2="153.67" width="0.1524" layer="91"/>
-<junction x="60.96" y="153.67"/>
 </segment>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>

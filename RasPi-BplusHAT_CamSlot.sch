@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7293,7 +7293,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="UART" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER-VERT(4P-2.54)" device="" value="4p-2.54"/>
 <part name="P_5V" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" value="2p-2.54"/>
 <part name="P_3.3V" library="Seeed-Connector -2016" deviceset="DIP-BLACK-MALE-HEADER-VERT(2P-2.54)" device="" value="2p-2.54"/>
-<part name="BUZT" library="Seeed-Transistor-2016" deviceset="SMD-TRANSISTORS-NPN-25V-500MW-S8050(SOT-23)" device="" value="S8050"/>
+<part name="BUZZ" library="Seeed-Transistor-2016" deviceset="SMD-TRANSISTORS-NPN-25V-500MW-S8050(SOT-23)" device="" value="S8050"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -7389,7 +7389,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="UART" gate="G$1" x="119.38" y="170.18"/>
 <instance part="P_5V" gate="G$1" x="149.86" y="170.18"/>
 <instance part="P_3.3V" gate="G$1" x="181.61" y="170.18"/>
-<instance part="BUZT" gate="G$1" x="48.26" y="223.52"/>
+<instance part="BUZZ" gate="G$1" x="48.26" y="223.52"/>
 <instance part="GND4" gate="1" x="134.62" y="220.98"/>
 <instance part="GND5" gate="1" x="86.36" y="208.28"/>
 <instance part="GND6" gate="1" x="186.69" y="200.66"/>
@@ -7828,7 +7828,7 @@ Source: http://www.osram.convergy.de/</description>
 </segment>
 <segment>
 <wire x1="50.8" y1="228.6" x2="50.8" y2="238.76" width="0.1524" layer="91"/>
-<pinref part="BUZT" gate="G$1" pin="C"/>
+<pinref part="BUZZ" gate="G$1" pin="C"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 </segment>
 <segment>
@@ -7929,7 +7929,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="50.8" y1="218.44" x2="50.8" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="215.9" x2="66.04" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="BUZZER" gate="G$1" pin="+"/>
-<pinref part="BUZT" gate="G$1" pin="E"/>
+<pinref part="BUZZ" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -7972,7 +7972,7 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="BUZT" gate="G$1" pin="B"/>
+<pinref part="BUZZ" gate="G$1" pin="B"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="223.52" x2="45.72" y2="223.52" width="0.1524" layer="91"/>
 </segment>
@@ -8306,6 +8306,12 @@ Source: http://www.osram.convergy.de/</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,66.04,104.14,U1,VCC,+3V3,,,"/>
+<approved hash="104,1,58.42,208.28,RGB1,VDD,+5V,,,"/>
+<approved hash="105,0,?,?,5V1,,,,,"/>
+<approved hash="105,0,?,?,5V2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
